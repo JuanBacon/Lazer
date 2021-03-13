@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1210</x>
+      <y>870</y>
+      <w>390</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>+Burguesia
+--
+
+--
++Burguesia(Texto, Imagen, Color, Granja,
+Milicia, Iglesia, Burguesia, tipo) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>530</y>
+      <w>390</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>+Tarjeta
+--
+-Texto : String
+-Granja : int
+-Milicia : int
+-Iglesia : int
+-Burguesia : int
+-tipo : int
+--
++Tarjeta (Texto, Granja,
+Milicia, Iglesia, Burguesia, tipo) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>870</y>
+      <w>390</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>+Granja
+--
+
+--
++Granja (Texto, Imagen, Color, Granja,
+Milicia, Iglesia, Burguesia, tipo) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>870</y>
+      <w>390</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>+Iglesia
+--
+
+--
++Iglesia (Texto, Imagen, Color, Granja,
+Milicia, Iglesia, Burguesia, tipo) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>870</y>
+      <w>390</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>+Milicia
+--
+
+--
++Milicia (Texto, Imagen, Color, Granja,
+Milicia, Iglesia, Burguesia, tipo) : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>990</x>
+      <y>620</y>
+      <w>440</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;420.0;10.0;420.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>990</x>
+      <y>680</y>
+      <w>150</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;130.0;10.0;130.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>470</x>
+      <y>680</y>
+      <w>150</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>620</y>
+      <w>440</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>420.0;10.0;20.0;10.0;10.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>0</y>
+      <w>410</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
++Principal
+--
++Score : int 
++ScoreIglesia : int 
++ScoreGranja : int 
++ScoreMilicia : int 
++ScoreBurguesia : int 
++TAJ : Arraylist&lt;&gt;
++ n : int
++ tipo : int
++Icono : icon
+--
++AsignarTarjeta(i) : void
++Random : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>800</x>
+      <y>300</y>
+      <w>30</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;220.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
